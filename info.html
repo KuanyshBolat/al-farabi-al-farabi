@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="assets/img/Logo2.svg" type="image/png">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <title>Al-Farabi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script defer src="assets/scripts/slider.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // инициализация слайдера
+            let slider = new SimpleAdaptiveSlider('.slider', {
+                autoplay: true,
+                interval: 5000,
+                swipe: true,
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <div class="header">
+        <div class="top-panel">
+            <div class="container">
+                <div class="top-panel-left">
+                    <ul class="top-links">
+                        <li class="top-link"><a href="index.html">Главная</a></li>
+                        <li class="top-link"><a href="">Сотрудничество</a></li>
+                        <li class="top-link"><a href="">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="top-panel-right">
+                    <ul class="top-links">
+                        <li class="top-link" style="padding-right: 0!important;">
+                            <script type="text/javascript">
+                                let d = new Date();
+
+                                let day=new Array("Воскресенье","Понедельник","Вторник",
+                                    "Среда","Четверг","Пятница","Суббота");
+
+                                let month=new Array("января","февраля","марта","апреля","мая","июня",
+                                    "июля","августа","сентября","октября","ноября","декабря");
+
+                                document.write(day[d.getDay()]+" " +d.getDate()+ " " + month[d.getMonth()]
+                                    + " " + d.getFullYear() + " г.");
+                                //--></script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="info__header">
+            <div class="container flex">
+                <div class="header__left__content">
+                    <div class="left__content__item">
+                        <h4>Рады видеть Вас на нашем ЛОЦ </h4>
+                    </div>
+                    <div class="left__content__item">
+                        <h5>Горный Гигант, Тайманова, 222а</h5>
+                    </div>
+                    <div class="left__content__item" style="margin-top: 25px;">
+                        <p>Al-Farabi это – тренажёрный зал, сауна, универсальный спортивный зал, скалодром, зал силовых единоборств, групповые занятия</p>
+                    </div>
+                </div>
+                <div class="header__right__content">
+                    <div class="right__content__item">
+                        <div class="title__work__time">
+                            <svg width="27" height="30" viewBox="0 0 27 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.22656 14.0625H5.27344C4.95117 14.0625 4.6875 13.7988 4.6875 13.4766V11.5234C4.6875 11.2012 4.95117 10.9375 5.27344 10.9375H7.22656C7.54883 10.9375 7.8125 11.2012 7.8125 11.5234V13.4766C7.8125 13.7988 7.54883 14.0625 7.22656 14.0625ZM12.5 13.4766V11.5234C12.5 11.2012 12.2363 10.9375 11.9141 10.9375H9.96094C9.63867 10.9375 9.375 11.2012 9.375 11.5234V13.4766C9.375 13.7988 9.63867 14.0625 9.96094 14.0625H11.9141C12.2363 14.0625 12.5 13.7988 12.5 13.4766ZM17.1875 13.4766V11.5234C17.1875 11.2012 16.9238 10.9375 16.6016 10.9375H14.6484C14.3262 10.9375 14.0625 11.2012 14.0625 11.5234V13.4766C14.0625 13.7988 14.3262 14.0625 14.6484 14.0625H16.6016C16.9238 14.0625 17.1875 13.7988 17.1875 13.4766ZM12.5 18.1641V16.2109C12.5 15.8887 12.2363 15.625 11.9141 15.625H9.96094C9.63867 15.625 9.375 15.8887 9.375 16.2109V18.1641C9.375 18.4863 9.63867 18.75 9.96094 18.75H11.9141C12.2363 18.75 12.5 18.4863 12.5 18.1641ZM7.8125 18.1641V16.2109C7.8125 15.8887 7.54883 15.625 7.22656 15.625H5.27344C4.95117 15.625 4.6875 15.8887 4.6875 16.2109V18.1641C4.6875 18.4863 4.95117 18.75 5.27344 18.75H7.22656C7.54883 18.75 7.8125 18.4863 7.8125 18.1641ZM17.1875 18.1641V16.2109C17.1875 15.8887 16.9238 15.625 16.6016 15.625H14.6484C14.3262 15.625 14.0625 15.8887 14.0625 16.2109V18.1641C14.0625 18.4863 14.3262 18.75 14.6484 18.75H16.6016C16.9238 18.75 17.1875 18.4863 17.1875 18.1641ZM21.875 5.46875V22.6562C21.875 23.9502 20.8252 25 19.5312 25H2.34375C1.0498 25 0 23.9502 0 22.6562V5.46875C0 4.1748 1.0498 3.125 2.34375 3.125H4.6875V0.585938C4.6875 0.263672 4.95117 0 5.27344 0H7.22656C7.54883 0 7.8125 0.263672 7.8125 0.585938V3.125H14.0625V0.585938C14.0625 0.263672 14.3262 0 14.6484 0H16.6016C16.9238 0 17.1875 0.263672 17.1875 0.585938V3.125H19.5312C20.8252 3.125 21.875 4.1748 21.875 5.46875ZM19.5312 22.3633V7.8125H2.34375V22.3633C2.34375 22.5244 2.47559 22.6562 2.63672 22.6562H19.2383C19.3994 22.6562 19.5312 22.5244 19.5312 22.3633Z" fill="#007BA7"/>
+                                <path d="M19.5 28.3594C22.736 28.3594 25.3594 25.736 25.3594 22.5C25.3594 19.264 22.736 16.6406 19.5 16.6406C16.264 16.6406 13.6406 19.264 13.6406 22.5C13.6406 25.736 16.264 28.3594 19.5 28.3594Z" stroke="#C9B26B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M19.7344 19.4531V22.7344L17.3906 24.6094" stroke="#C9B26B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            График работы
+                        </div>
+
+                    </div>
+                    <div class="right__content__item">
+                        <div class="week">
+                            <ul class="week__list">
+                                <li class="week__day">ПН</li>
+                                <li class="week__day">ВТ</li>
+                                <li class="week__day">СР</li>
+                                <li class="week__day">ЧТ</li>
+                                <li class="week__day">ПТ</li>
+                                <li class="week__day active__week__day">СБ</li>
+                                <li class="week__day">ВС</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right__content__item">
+                        <div class="work__time">
+                            Отель работает с 06:00 - 23:00
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info__content__block">
+        <div class="container flex">
+            <div class="info__menu">
+                <div class="buttons">
+                    <button class="hotel">Отель</button>
+                    <button class="loc">ЛОЦ</button>
+                    <button class="sport">Спортзал</button>
+                    <button class="sauna">Сауна</button>
+                </div>
+
+                <div class="info__contacts">
+                    <div class="info__contacts__line"></div>
+                    <h5>Наши контакты</h5>
+
+                    <div class="info__telephones">
+                        <p>+7 (727) 22-34-56</p>
+                        <p>+7 701 222 34 56</p>
+                        <p>+7 747 222 34 56</p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="info__right__contents">
+
+                <div class="info__hotel">
+                    <div class="slider">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/hotel1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/hotel2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/hotel3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/hotel4.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/hotel5.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/hotel6.png" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                    </div>
+
+                    <div class="info__contents">
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Отель
+                            </h3>
+                            <p class="content__description">
+                                Отель располагает тремя категориями номеров, стандартные двухместные, полулюкс и люкс номера. В нашем отеле одновременно могут размещаться 120 человек, все комнаты оснащены всем необходимым  оборудованием.
+                            </p>
+                        </div>
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Питание
+                            </h3>
+                            <p class="content__description">
+                                Для проживающтх в нашем отеле, организован 4-х  разовый режим питания: посмотреть
+                                Круглый год на столах присутствуют свежие овощи и фрукты, мясные  и рыбные блюда, зелень, витаминные салаты.                            </p>
+                        </div>
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Территория
+                            </h3>
+                            <p class="content__description">
+                                Для проживающих в нашем отеле, у нас имеется собственный парк с терренкурными дорожками для прогулки на свежем воздухе. Для проживающих в нашем отеле и для наших сотрудников, у нас имеется собственный паркинг зона
+                            </p>
+                        </div>
+                        
+                        <div class="info__content__price__list">
+                            <div class="info__content__price__item">
+                                <div class="price__title">
+                                    Стандарт
+                                </div>
+                                <div class="price__cost">
+                                    11 000 ₸
+                                </div>
+                                <div class="price__line">
+                                    
+                                </div>
+                                
+                                <div class="price__descriptions">
+                                    <p>Завтрак</p>
+                                    <p>Проживание</p>
+                                    <p>Место на парковке</p>
+                                </div>
+                            </div>
+                            <div class="info__content__price__item">
+                                <div class="price__title">
+                                    Стандарт +
+                                </div>
+                                <div class="price__cost">
+                                    13 500 ₸
+                                </div>
+                                <div class="price__line">
+
+                                </div>
+
+                                <div class="price__descriptions">
+                                    <p>4х разовое питание</p>
+                                    <p>Проживание</p>
+                                    <p>Место на парковке</p>
+                                </div>
+                            </div>
+                            <div class="info__content__price__item">
+                                <div class="price__title">
+                                    С лечением
+                                </div>
+                                <div class="price__cost">
+                                    16 000 ₸
+                                </div>
+                                <div class="price__line">
+
+                                </div>
+
+                                <div class="price__descriptions">
+                                    <p>4х разовое питание</p>
+                                    <p>Лечебные процедуры</p>
+                                    <p>Проживание</p>
+                                    <p>Место на парковке</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="hotel__order__button">
+                            <form target="_blank" action="https://api.whatsapp.com/send/?phone=77717482010&text=Здравствуйте!%0A%0AПишу+по+поводу+брони+номера+в+ЛОЦ+Аль-Фараби%0A%0A&app_absent=0">
+                                <button>
+                                    Бронь
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info__loc">
+                    <div class="slider">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/loc1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/loc2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/loc3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/loc4.png" alt="">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                    </div>
+
+                    <div class="info__contents">
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Лечебно-оздоровительный центр
+                            </h3>
+                            <p class="content__description">
+                                &nbsp;&nbsp;&nbsp;&nbsp;Лечебно-оздоровительный центр «AL-FARABI» является современным лечебно-оздоровительным, реабилитационным учреждением, оснащенный медицинским оборудованием по последним стандартам с высшим сервисным обслуживанием.
+                                <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Мы работаем согласно Государственной лицензии на медицинскую деятельность №1901152 от 24.05.2019г, проводим лечение, восстановление, оздоровление, профилактику обострений всех заболеваний в санаторно-курортных условиях.
+                                <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Существует определенные показания и противопоказания для нахождения и лечения в санатории.Наши процедуры широко применяются при заболеваниях сердца,дыхания,порно-двигательного аппарата, улучшения обмена веществ и общего восстановления организма. Мы являемся многопрофильной, круглогодичной здравницей. На нашей баз проводится лечение и реабилитация больных, страдающих заболевания сердца, желудочно-кишечного тракта, нервной системы, болезнь печени и обмена веществ, заболеваний органов дыхания, опорно-двигательной и мочеполовой системы.
+                                <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Противопоказаниями являются острые и инфекционные состояния, забоевания крови, онкология, тяжелые заболевания сердца.
+                                <br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;Использование лечебных процедур обеспечивает профилактику заболеваний(оздоровительный, общеукрепляющий, восстановительное лечение и реабилитацию), что позволяет улучшить состояние здоровья пациентов.
+                                <br><br>
+                                &nbsp;&nbsp;&nbsp;&nbsp;В нашем санатории мы используем природные и преобразованные (преформированнные) лечебные факторы: климатолечение, терренкур-прогулки на свежем воздухе, лечебные ванны, маммаж в воде (гидромассаж), лечение теплом с использованием природного минерала как озокерит, электролечение с помощью аппаратов, лечение светом, искусственно созданный микроклимат соляных пещер(галотерапия), ингаляции, ручной массаж(классический), кедровая бочка, иглотерапия, фиточаи, кислородный коктейль.
+                                <br><br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;Для тех, кто приобретает путевку на санаторно-курортное лечение представлена следующая программа с количеством процедур, рассчитанных на 10 дней(приложение№1). В санатории, как известно, прибывают пациенты, как правило в фазах ремиссии хронических заболеваний. Т.е. малосимптомными формами. Задача санаторно-курортного лечения-общее оздоровление.
+                                <br><br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;Специалисты проведут первичный осмотр, диагностика для назначения для назначения наших процедур-общий анализ крови, общий анализ мочи, электрокардиограмма. Для более широкой диагностики пациенты могут сдать анализы за дополнительную оплату.
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;Нами заключен договор с компанией «INVITRO», в котором проводится широкий спектр лабораторных исследований.
+                                <br><br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;Расшифровку и рекомендации даст лечащий врач-терапевт санатория.
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;Для дополнительных функциональных исследований, таких как УЗИ всех органов и УЗИ сердца, мы организовали для Вас трансфер в МЦ«Клиника по стандартам Южной Кореи-МРК клиник». В санатории по предварительной записи Вы сможете проконсультироваться у узких специалистов: кардиолога, эндокринолога, невролога, уролога, дерматокосметолога.
+                                <br><br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;Наши доктора подберут Вам комплексную, индивидуальную лечебную программу.
+                                <br>&nbsp;&nbsp;&nbsp;&nbsp;Наш терапевт при необходимости назначает лечение лекарствами в виде капельниц для профилактики обострений хронических заболеваний.
+                                <br><br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;Большое значение имеет лечебное питание. Оправданный выбор диеты, способа кулинарной обработки, калорийности, состава, в том числе витаминов, пищевых волокон, делает питание мощным лечебным фактором.
+                                <br><br>
+
+                                &nbsp;&nbsp;&nbsp;&nbsp;Проводим тюбаж – это методика устранения застойных явлений в желчном пузыре. Метод позволяет: улучшить качественный отток желчи,улучшить перистальтику органа,вывести из организма накопившиеся вредные токсины и патогенную микрофлору, которые негативно влияют на здоровье человека.                         </p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="info__sport">
+                    <div class="slider">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/sport1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/sport2.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/sport3.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/sport4.png" alt="">
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+                        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                    </div>
+
+                    <div class="info__contents">
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Спортивный комплекс
+                            </h3>
+                            <p>Наш зимний многофункциональный спортивный зал общей площадью на 650 кв м. оснашен современным оборудованием, адаптирован под 15 видов спорта.</p>
+                        </div>
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Футбольное поле
+                            </h3>
+                            <p>
+                                На территории имеется собственное футбольное поле. Проживающие в нашем отеле смогут поиграть в футбол, волейбол, баскетбол
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info__sauna">
+                    <div class="slider">
+                        <div class="slider__wrapper">
+                            <div class="slider__items">
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/sauna1.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="slider__item">
+                                    <div class="img">
+                                        <img src="assets/img/banner__info/sauna2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+                        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+                    </div>
+
+                    <div class="info__contents">
+                        <div class="info__content__item">
+                            <h3 class="content__title">
+                                Сауна
+                            </h3>
+                            <p>
+                                «Сауна» — финское слово, обозначающее изолированное, обитое деревом помещение, обогреваемое специальной печкой с камнями и сооруженное с целью создания оптимальной среды особого рода сухой жаркой бани. Слово «сауна» обозначает не собственно действие, а сооружение, где это действие происходит. Нельзя «принять» сауну, можно войти в нее. Ее основное назначение — вызвать усиленное потовыделение и таким образом очистить кожу тела. Сауну можно рассматривать как баню, но поскольку это не только удаление грязи с тела, но также снятие физического и умственного напряжения, она дает нам намного больше, чем та ослепительно белая посудина, которую мы называем ванной. Ускоряя кровообращение и повышая температуру тела, тепло сауны может ослабить боль и заменить физическую зарядку без всякого напряжения мышц.
+                            </p>
+                        </div>
+                        <div class="info__content__item">
+                            <p>
+                                Наиболее важным для большинства любителей сауны является то, что пребывание в ней успокаивает и помогает расслабиться. Но для  того  чтобы помещение сауны отвечало всем необходимым требованиям, в нем должны быть созданы соответствующие условия.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__contacts">
+                    <div class="footer__contacts__item">
+                        <h3>Контакты</h3>
+                    </div>
+                    <div class="footer__contacts__item" style="border-left: 3px solid #ffffff; padding-left: 20px">
+                        <p class="contacts__adres">г. Алматы, <br>
+                            ул. Тайманова, 222А</p>
+                    </div>
+                    <div class="footer__contacts__item">
+                        <p class="contact__numbers" style="color: #E6E4E4 !important">+7 708 702 0626</p>
+                        <p class="contact__numbers"style="color: #E6E4E4!important">+7 727 725 4444</p>
+                        <p class="contact__numbers"style="color: #E6E4E4!important">+7 777 725 4444</p>
+                    </div>
+                    <div class="footer__contacts__item">
+                        <a href="mailto:info@al-farabi.kz">info@al-farabi.kz</a>
+                    </div>
+                    <div class="footer__contacts__item">
+                        <form action="https://go.2gis.com/2sy72" target="_blank">
+                            <button class="contacts__road">
+                                Построить маршрут
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div class="footer__map">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ad085dec43b27860ed08b80f37a50e69aa19ad14be131a50bf77695c742e3be33&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <div class="copyright">
+                    © 2022 ЛОЦ Аль-Фараби
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="assets/scripts/content.js"></script>
+</body>
+</html>
